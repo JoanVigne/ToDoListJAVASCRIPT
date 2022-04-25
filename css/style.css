@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     background-color: white;
     width: 400px;
+    border-radius: 5px;
 }
 
 #newTask {
@@ -41,7 +42,22 @@ input:focus{
     border-radius: 5px;
     font-family: 'Poppins',sans-serif;
 }
-
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: none;
+    background-color: #0d75ec;
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+ul {
+    padding: 0;
+    width: 300px;
+}
 .delete {
-    margin-left: 20px;
+    cursor: pointer;
+    margin-left: 15px;
 }

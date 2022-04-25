@@ -6,14 +6,14 @@ document.querySelector('#push').onclick = function(){
     }
     else{
         document.querySelector('#tasks').innerHTML += `
-            <div class="task">
+            <li class="task">
                 <span id="taskName">
                     ${document.querySelector('#newTask input').value}
                 </span>
-                    <a class="delete">
+                        <a class="delete">
                         <img src="../images/iconDelete.png"></img>
-                    </a>
-            </div>
+                        </a>           
+                </li>
         `;
 
         var current_tasks = document.querySelectorAll(".delete");
